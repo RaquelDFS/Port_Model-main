@@ -1,0 +1,9 @@
+/*Não altere esta classe em outros lugares do seu código, deixe ele sempre limpo*/
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+    padding-block: 1rem;
+}

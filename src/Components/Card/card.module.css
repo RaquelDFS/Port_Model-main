@@ -1,0 +1,84 @@
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: gainsboro;
+    color: rgb(247, 2, 22);
+    border-radius: 6px;
+    box-shadow: 6px 7px 6px whitesmoke;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h3 {
+    color: rgb(6, 38, 162);
+}
+
+.card p {
+    font-family: "Aboreto", system-ui;
+    color: rgb(123, 121, 121);
+}
+
+.card_footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_icones {
+    display: flex;
+    gap: 25px;
+    color: rgb(247, 2, 22);
+    font-size: 2.5rem;
+}
+
+.botao {
+    background-color: transparent;
+    border: 0;
+    color: rgb(6, 38, 162);
+    cursor: pointer;
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 45px;
+    max-width: 160px;
+    margin: 1 auto 2rem;
+    width: 100%;
+    letter-spacing: 0;
+    display: grid;
+    align-items: center;
+}
+
+.botao:after,
+.botao:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid;
+    bottom: 0px;
+    content: " ";
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 280ms ease-in-out;
+    transition: all 280ms ease-in-out;
+    width: 0;
+}
+
+.botao:hover:after,
+.botao:hover:before {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-color: #ef2828;
+    -webkit-transition: width 350ms ease-in-out;
+    transition: width 250ms ease-in-out;
+    width: 70%;
+}
+
+.botao:hover:before {
+    bottom: auto;
+    top: 0;
+    width: 70%;
+}

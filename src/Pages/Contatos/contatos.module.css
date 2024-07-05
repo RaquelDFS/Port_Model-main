@@ -1,0 +1,30 @@
+.contatos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img_home{
+    width: 92vw;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icones {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 1.5rem;
+    
+  }
+
+  .icones a{
+    align-items: center;
+    font-size: x-large;
+    color: yellow;
+  }
+

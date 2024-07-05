@@ -1,0 +1,21 @@
+.img_home{
+  width: 95vw;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.lista{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1.5rem;
+  margin-block: 1rem;
+  }
+
+  .projetos h2{
+    text-align: center;
+  }
